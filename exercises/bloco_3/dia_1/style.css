@@ -1,0 +1,46 @@
+			body {
+                background-color: rgb(98,109,88);
+                color: white;
+                margin: 0;
+            }
+            h1 {
+                
+                text-align: center;
+                letter-spacing: 2px;
+                font-size: 45px;
+            }
+            img {
+                font-style: italic;
+                font-size: 12px;
+            }
+            em {
+                font-style: none;
+                text-decoration: underline;
+                font-weight: 600;
+            }
+            ul {
+                background-color: rgb(150, 156, 98);
+                border-radius: 5px;
+            }
+            li {
+                display: inline-block;
+            }
+            .image {
+                display: inline;
+
+            }
+            img {
+                width: 30%;
+                padding: 5px;
+                background-color:rgb(150, 156, 98);
+            }
+            #pst {
+                display: inline-block;
+                width: 50%;
+                margin: 20px;
+            }
+            .wrap {
+                width: 90%;
+                height: 20%;
+                margin: 15px;
+            }

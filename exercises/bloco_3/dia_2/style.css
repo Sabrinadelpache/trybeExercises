@@ -1,0 +1,32 @@
+body {
+    font-size: 16px;
+}
+h1 {
+    size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-align: right;
+}
+ul {
+    background-color: deepskyblue;
+    text-decoration: line-through;
+}
+.cor {
+    background-color: darkblue;
+
+}
+p {
+    font-size: 3em;
+    font-style: oblique;
+    line-height: 2;
+    font-weight: 600;
+}
+.a{
+    background-color:yellow
+}
+.b {
+    background-color: red;
+}
+.c {
+    background-color: maroon;
+}
