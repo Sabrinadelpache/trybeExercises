@@ -187,4 +187,3 @@ function inssCalculation (grossSalary) {
     liquidSalary = baseSalary - aliquotaIR;
     return liquidSalary
 }
-console.log(inssCalculation(3000.00))
