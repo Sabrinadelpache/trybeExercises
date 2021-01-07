@@ -11,18 +11,18 @@ window.onload = function() {
     }
     statesCreation();
 }
-let valueData = document.getElementById('data').value;
+
 let inputData = document.getElementById('data');
 function date() {
-    console.log(valueData);
-    let day = 0;
-    let month = 0;
-    let year = 0;
+    let valueData = inputData.value;
+    let day = '';
+    let month = '';
+    let year = '';
     for (let i = 0; i < valueData.length; i += 1) {
         if ((i == 0) || (i == 1) ) {
             day += valueData[i];
         }   
-            else if ((valueData[i] == 2) || (valueData[i] == 3)) {
+            else if ((i == 2) || ( i == 3)) {
                 month += valueData[i];
             }
                 else {
@@ -30,10 +30,10 @@ function date() {
                 }
     }
 
-    if ((day <= '00') || (day >= '32')) {
-        alert('Data inválida! Por favor, preencha a data com valores entre 1 e 31.')
+    if ((day <= '00') || (day > '31')) {
+        alert('Data inválida! Por favor, preencha a data com valores entre 01 e 31.')
     }
-    if ((month <= 00) || (month > 12)) {
+    if ((month <= '00') || (month > '12')) {
         alert('Mês inválido! Por favor, preencha os mês com valores válidos entre 01 e 12.')
     }
     if (year <= 0) {
