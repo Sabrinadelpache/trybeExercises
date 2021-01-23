@@ -187,3 +187,4 @@ function inssCalculation(grossSalary) {
     liquidSalary = baseSalary - aliquotaIR;
     return liquidSalary
 }
+

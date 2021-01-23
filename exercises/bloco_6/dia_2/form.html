@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <form id='validationForm'>
+        <fieldset>
+            <label>Nome:</label>
+            <input type='text' required maxlength='40' data-validate-field='name' />
+            <label>E-mail:</label>
+            <input type='email' required maxlength='50' data-validate-field='email'/>
+            <label>CPF:</label>
+            <input type='text' required maxlength='11'data-validate-field='number' />
+            <label>Endereço:</label>
+            <input type='text' required maxlength='200'  data-validate-field='text'/>
+            <label>Cidade:</label>
+            <input type='text' required maxlength='28' data-validate-field='textCity' />
+            <label>Estado</label>
+            <select id='states' data-validation-field='checkbox'></select>
+            <label for='tipo'>Tipo:</label>
+            <label><input type='radio' name='tipo' data-validate-field='checkbox'>Casa</label>
+            <label><input type='radio' name='tipo' data-validate-field='checkbox' />Apartamento</label>
+        </fieldset>
+        <fieldset>
+            <label for='res'>Resumo:</label>
+            <textarea name='res' maxlength='1000'required data-validate-field='text1'></textarea>
+            <label for='cargo'>Cargo:</label>
+            <input type='text' name='cargo' data-validate-field='text' data-validate-field='text'/>
+            <label for='descargo'>Descrição do cargo:</label>
+            <input type='text' required maxlength='500' data-validate-field='text2' />
+            <!--Verificação js-->
+            <label for='data'>Data de início:</label>
+            <input type='text' name='data' required id='datepicker' />
+        </fieldset>
+        <button type='submit'>Enviar</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="js/just-validate.min.js"></script>
+    <script type='text/javascript' src='script.js'></script>
+    <body>
+        <html>
