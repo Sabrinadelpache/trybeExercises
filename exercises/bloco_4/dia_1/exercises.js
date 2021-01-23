@@ -126,10 +126,10 @@ function grades(nota) {
 
 // ***exercise 8 ***
 function evenNumbers() {
-    let l = 3; 
+    let l = 3;
     let m = 3;
     let n = 7;
-    if( (l%2 == 0) || (m%2 == 0) || (n%2 == 0) ) {
+    if ((l % 2 == 0) || (m % 2 == 0) || (n % 2 == 0)) {
         return true
     } else {
         return false
@@ -141,7 +141,7 @@ function oddNumbers() {
     let o = 1;
     let p = 7;
     let q = 3;
-    if( (o%2 == 0) || (p%2 == 0) || (q%2 == 0) ) {
+    if ((o % 2 == 0) || (p % 2 == 0) || (q % 2 == 0)) {
         return false
     } else {
         return true
@@ -149,7 +149,7 @@ function oddNumbers() {
 }
 
 // *** exercise 10 ***
-function productCost (cost , sale) {
+function productCost(cost, sale) {
     let finalCost = (cost * 0.20) + cost;
     let profit = sale - finalCost;
     let finalProfit = 20000 * profit;
@@ -157,34 +157,33 @@ function productCost (cost , sale) {
 }
 
 // *** exercise 11 ***
-function inssCalculation (grossSalary) {
+function inssCalculation(grossSalary) {
     let aliquotaInss;
     let aliquotaIR;
     let baseSalary;
     let liquidSalary;
     if (grossSalary <= 1556.94) {
         aliquotaInss = grossSalary * 0.08;
-    }   else if (grossSalary <= 2594.92) {
+    } else if (grossSalary <= 2594.92) {
         aliquotaInss = grossSalary * 0.09;
-    }   else if (grossSalary <= 5189.82) {
+    } else if (grossSalary <= 5189.82) {
         aliquotaInss = grossSalary * 0.11;
-    }   else {
+    } else {
         aliquotaInss = 570.88;
     }
     baseSalary = grossSalary - aliquotaInss;
 
     if (baseSalary <= 1903.98) {
         aliquotaIR = 0;
-    }   else if (baseSalary <= 2826.65) {
+    } else if (baseSalary <= 2826.65) {
         aliquotaIR = (baseSalary * 0.075) - 142.80;
-    }   else if (baseSalary <= 3751.06) {
-        aliquotaIR = (baseSalary * 0,15) - 354.80;
-    }   else if (baseSalary <= 4664.68) {
+    } else if (baseSalary <= 3751.06) {
+        aliquotaIR = (baseSalary * 0, 15) - 354.80;
+    } else if (baseSalary <= 4664.68) {
         aliquotaIR = (baseSalary * 0.225) - 636.13;
-    }   else {
+    } else {
         aliquotaIR = (baseSalary * 0.275) - 869.36;
     }
     liquidSalary = baseSalary - aliquotaIR;
     return liquidSalary
 }
-console.log(inssCalculation(3000.00))
