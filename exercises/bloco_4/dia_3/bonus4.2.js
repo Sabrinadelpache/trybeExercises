@@ -11,6 +11,7 @@ const ordemCrescente = () => {
             }
         }
     }
+    return array
 }
 
 //*** Ordenar em ordem descrescente
@@ -24,6 +25,7 @@ const ordemDecrescente = () => {
             }
         }
     }
+    return array
 }
 
 //*** Multiplição por o número seguinte

@@ -8,16 +8,18 @@
 
 function asterisk(n) {
     if (n > 1) {
-        for (let i = 0; i < n - 2; i += 1) {
+        let right,
+            let
+        for (let i = 0; i < n; i += 1) {
             let symbol = '';
             for (let k = n - 1; k > 0; k -= 1) {
-                if (k === n){
+                if (k === n) {
                     symbol += '*'
                 }
                 symbol += ' ';
             }
-           for (let j = 0; j <= i; j += 1) {
-               symbol += '*';
+            for (let j = 0; j <= i; j += 1) {
+                symbol += '*';
             }
             console.log(symbol);
         }
