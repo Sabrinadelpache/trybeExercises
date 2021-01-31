@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id='btn'>Aperte o botão</button>
+    <label id='label'></label>
+</body>
+<script>
+    let clickcount = 0;
+    const btnClick = document.getElementById('btn');
+    btnClick.addEventListener('click', (e) => {
+        if(e) clickcount += 1;
+        document.getElementById('label').innerText = `Você apertou o botão: ${clickcount}`;
+    });
+</script>
+</html>
