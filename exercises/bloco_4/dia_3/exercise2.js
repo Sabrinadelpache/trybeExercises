@@ -7,8 +7,8 @@ function asterisk(n) {
             }
             console.log(symbol);
         }
-    }   else {
+    } else {
         console.log('Valor < 1 ');
-        }
+    }
 }
 asterisk(5);
