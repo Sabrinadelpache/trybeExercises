@@ -7,10 +7,10 @@ const getMarsTemperature = () => {
 
 
 const sendMarsTemperature = ((callTemperature, callTimeout) => {
-    const message = `Mars temperature is: ${callTemperature} degree Celsius`;
-    const previousMessage = `Soon the temperature will be informed`
-    console.log(previousMessage) 
-    setTimeout(() => console.log(message), callTimeout)
+  const message = `Mars temperature is: ${callTemperature} degree Celsius`;
+  const previousMessage = `Soon the temperature will be informed`
+  console.log(previousMessage)
+  setTimeout(() => console.log(message), callTimeout)
 
 });
 
