@@ -1,3 +1,5 @@
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sabrinadelpache)](https://github.com/anuraghazra/github-readme-stats)
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Sabrina Alves Delpache](https://www.linkedin.com/in/sabrinadelpache/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
