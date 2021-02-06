@@ -10,79 +10,79 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: IntroduÃ§Ã£o - Unix & Shell
 
-- [ ] 1-3: _Unix & Bash - Part 1_
-- [ ] 1-4: _Unix & Bash - Part 2_
-- [ ] 1-5: _Shell Script_
+- [x] 1-3: _Unix & Bash - Part 1_
+- [x] 1-4: _Unix & Bash - Part 2_
+- [x] 1-5: _Shell Script_
 
 ##### Bloco 2: Git & GitHub
 
-- [ ] 2-1: _O que Ã© e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [x] 2-1: _O que Ã© e para que serve?_
+- [x] 2-2: _Entendendo os comandos_
+- [x] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: IntroduÃ§Ã£o - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
-- [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML SemÃ¢ntico_
-- [ ] 3-5: _[Projeto - HTML & CSS]
+- [x] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
+- [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML SemÃ¢ntico_
+- [x] 3-5: _[Projeto - HTML & CSS]
 
 ##### Bloco 4: IntroduÃ§Ã£o - JavaScript
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - LÃ³gica de ProgramaÃ§Ã£o e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funÃ§Ãµes_
-- [ ] 4-5: _[Projeto - Playground Functions]
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-2: _JavaScript - Array e loop For_
+- [x] 4-3: _JavaScript - LÃ³gica de ProgramaÃ§Ã£o e Algoritmos_
+- [x] 4-4: _JavaScript - Objetos e funÃ§Ãµes_
+- [x] 4-5: _[Projeto - Playground Functions]
 
 ##### Bloco 5: IntroduÃ§Ã£o - JavaScript - Projetos
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Meme Generator]
-- [ ] 5-6: _[Projeto - Arte com Pixels]
-- [ ] 5-7: _[Projeto - Lista de tarefas]
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]
-- [ ] 5-7: _[Projeto - Carta Misteriosa]
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5: _[Projeto - Meme Generator]
+- [x] 5-6: _[Projeto - Arte com Pixels]
+- [x] 5-7: _[Projeto - Lista de tarefas]
+- [x] 5-7: _[Projeto - Adivinhe a Cor]
+- [x] 5-7: _[Projeto - Carta Misteriosa]
 
 ##### Bloco 6: HTML & CSS avanÃ§ado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - PÃ¡gina inicial do Facebook]
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-6: _[Projeto - PÃ¡gina inicial do Facebook]
 
 ##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitÃ¡rios em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _Testes unitÃ¡rios em JavaScript_
+- [x] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-5: _[Projeto - Zoo functions]
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript AssÃ­ncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]
+- [x] 9-1: _JavaScript AssÃ­ncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _[Projeto - Carrinho de Compras]
 
 ##### Bloco 10: Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes AssÃ­ncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-1: _Primeiros passos no Jest_
+- [x] 10-2: _Jest - Testes AssÃ­ncronos_
+- [x] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
@@ -213,11 +213,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 30-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+- [ ] 30-3: _[Projeto - Stranger Things]
 
 ##### Bloco 31: Projeto
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+- [ ] 31-1: _[Projeto - Trybeer]
 
 ##### Bloco 32: Arquitetura de Software
 
@@ -225,17 +225,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 32-2: _ORM - Interface da aplicaÃ§Ã£o com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
 - [ ] 32-4: _Boas prÃ¡ticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+- [ ] 32-3: _[Projeto - API de Blogs]
 
 ##### Bloco 33: Sockets
 
 - [ ] 30-1: _Sockets - TCP/UDP & NET_
 - [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
+- [ ] 30-3: _[Projeto - Webchat]
 
 ##### Bloco 34: Projeto
 
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
+- [ ] 34-1: _[Projeto - Trybeer V2]
 
 ## CiÃªncia da ComputaÃ§Ã£o :hourglass_flowing_sand:
 
@@ -244,7 +244,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
 - [ ] 35-3: _Redes de computadores, ferramentas e seguranÃ§a_
-- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
+- [ ] 35-4: _[Projeto - Explorando os protocolos]
 
 ##### Bloco 36: Python
 
@@ -252,6 +252,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-2: _Testes e ExceÃ§Ãµes_
 - [ ] 35-3: _Entrada e SaÃ­da de dados_
 - [ ] 36-4: _Entrada e SaÃ­da de dados_
-- [ ] 35-5: _[Projeto - Tech news]()_
+- [ ] 35-5: _[Projeto - Tech news]
 
 # [...]
