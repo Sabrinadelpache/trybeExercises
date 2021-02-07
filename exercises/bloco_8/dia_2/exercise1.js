@@ -74,7 +74,7 @@ const expectedResult = [
 
 function formatedBookNames() {
   books.map((book) => {
-    const newBookFormat = `${book.name} - ${book.genre} - ${book.author.name}`  
+    const newBookFormat = `${book.name} - ${book.genre} - ${book.author.name}`
   })
   console.log(newBookFormat);
 }
