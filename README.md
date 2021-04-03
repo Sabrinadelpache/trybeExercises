@@ -84,47 +84,47 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]
+- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Projeto - Movie Cards Library]
 
 ##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 12-1: _Components com estado e eventos_
-- [ ] 12-2: _Formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]
+- [x] 12-1: _Components com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful]
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 
-- [ ] 13-1: _Ciclo de vida de componentes em React_
-- [ ] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD]
+- [x] 13-1: _Ciclo de vida de componentes em React_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD]
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]
+- [x] 14-1: _Metodologias Ágeis_
+- [x] 14-2: _[Projeto - Frontend Online Store]
 
 ##### Bloco 15: Testes automatizados com React Testing Library
 
-- [ ] 15-1: _Testando React com a React Testing Library - Primeiros passos_
-- [ ] 15-2: _Testando React com a React Testing Library - Mocks e inputs_
-- [ ] 15-3: _Testando React com a React Testing Library - Testando React Router_
-- [ ] 15-4: _[Projeto - Testes em React]
+- [x] 15-1: _Testando React com a React Testing Library - Primeiros passos_
+- [x] 15-2: _Testando React com a React Testing Library - Mocks e inputs_
+- [x] 15-3: _Testando React com a React Testing Library - Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React]
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux - O estado global a aplicação_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Actions Assícronas_
-- [ ] 16-5: _Testes síncronos com React-Redux_
+- [x] 16-1: _Introdução ao Redux - O estado global a aplicação_
+- [x] 16-2: _React com Redux - Parte 1_
+- [x] 16-3: _React com Redux - Prática_
+- [x] 16-4: _React com Redux - Actions Assícronas_
+- [x] 16-5: _Testes síncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Trybe Wallet]
 
 ##### Bloco 17: Projeto React
