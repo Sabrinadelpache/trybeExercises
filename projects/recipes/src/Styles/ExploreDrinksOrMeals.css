@@ -1,0 +1,115 @@
+.exploreContainer {
+  display: grid;
+  grid-template-rows: 10vh;
+}
+
+.linksContainer {
+  grid-row: 2;
+  margin-top: 10vh;
+}
+
+.linksContainer.foods {
+  background-image: url('./images/food.png');
+  height: 82vh;
+  background-position-x: 2vh;
+  background-repeat: no-repeat;
+  background-size: 57vh;
+  margin-top: 0vh;
+  overflow: hidden;
+}
+
+.linksContainer.drinks {
+  background-image: url('./images/drinks.png');
+  height: 70vh;
+  background-position-x: -7vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position-y: -5vh;
+}
+
+.botlinksContainer {
+  grid-row: 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  grid-row: 2;
+  background-image: url(/static/media/pngwing.com.3425b7fb.png);
+  background-size: 122vh;
+  background-repeat: no-repeat;
+  background-position-x: -50vh;
+  background-position-y: -8vh;
+}
+
+.footerContainer {
+  grid-row: 5;
+}
+
+.categoryBtn.explore {
+  height: 10vh;
+  width: 30vw;
+  margin: 10vh 5vh 10vh 6vh;
+}
+
+.categoryBtn.explore.surprise {
+  margin-left: 35vw;
+}
+
+.categoryBtn.explore.drink {
+  position: inherit;
+}
+
+.exploreAreaContainer {
+  height: 100vh;
+  display: grid;
+}
+
+.selectArea, select{
+  align-self: baseline;
+  width: 71vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 8vh;
+}
+
+.selectArea select {
+  width: 50vw;
+  align-self: center;
+}
+
+.selectArea {
+  background-color: #fcb069;
+  border-bottom-left-radius: 10vh;
+  border-bottom-right-radius: 10vh;
+  box-shadow: 0px 2px 5px 2px #be6900, 0px 3px 4px 5px #000000b3;
+  margin-top: 0.7vh;
+}
+
+.exploreAreaContainer .cardContainer {
+  margin-top: 2vh;
+  height: 90vh;
+}
+
+.ingredientsContainer {
+  align-items: center;
+  margin-top: 8vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: fit-content;
+}
+
+.ingredientCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ff8c0033;
+  width: 43vw;
+  margin: 3vh 1vh 1vh 2vh;
+  padding: 0vh;
+  height: 30vh;
+  border-radius: 3vh;
+  box-shadow: 0px 2px 5px 2px #be6900, 0px 3px 4px 5px #000000b3;
+}

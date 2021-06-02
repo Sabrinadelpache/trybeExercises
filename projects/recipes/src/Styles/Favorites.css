@@ -1,0 +1,74 @@
+.allFavoritesContainer {
+  grid-row: 3;
+  position: relative;
+}
+
+.favoriteContainer {
+  margin: 1vh 4vh 2vh 4vh;
+  display: grid;
+  grid-template-columns: 10vw 70vw;
+  grid-template-rows: 40vh auto auto auto;
+  border: 2px solid black;
+  padding: 1vh;
+  background-color: whitesmoke;
+  width: 80vw;
+  border-radius: 2vh;
+  box-shadow: inset 0px 0px 10px 0px #070606, 0px 0px 2px 2px #00000091;
+}
+
+.favoriteBtns {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  align-self: baseline;
+  border-right: none;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #fcb069;
+  position: relative;
+  bottom: 0;
+  width: 12vw;
+  border: 2px solid black;
+  border-right: none;
+}
+
+.favoriteBtns button {
+  background-color: transparent;
+  display: flex;
+  border: none;
+  height: 10vh;
+  align-items: center;
+  position: relative;
+  bottom: 4vh;
+  cursor: pointer;
+}
+
+.favoriteContainer a{
+  grid-column: 2;
+}
+
+.favoriteContainer .Imagem{
+  max-height: 50vh;
+  max-width: 70vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.favoriteContainer .horizontalName {
+  position: relative;
+  bottom: 13vh;
+  background-color: #fcb069;
+  border-bottom-right-radius: 10px;
+  line-height: 7vh;
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+  text-align: center;
+}
+
+.favoriteContainer .topText {
+  text-align: center;
+}

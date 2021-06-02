@@ -1,0 +1,95 @@
+.doneRecipes {
+  display: grid;
+  grid-template-rows: 8vh 8vh 84vh;
+}
+
+.doneRecipes .headerContainer {
+  grid-row: 1;
+  z-index: 50;
+}
+
+.buttonsContainerDone {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  position: fixed;
+  top: 9vh;
+  left: 15vw;
+  z-index: 50;
+}
+
+.buttonsContainerDone button {
+  width: 20vw;
+  height: 5vh;
+  margin: 1vh;
+}
+
+.containerAllDone, .drinksDone, .foodDone {
+  grid-row: 3;
+}
+
+.cardRecipe.done {
+  margin: 1vh 4vh;
+  display: grid;
+  grid-template-columns: 10vw 70vw;
+  grid-template-rows: 40vh auto auto auto;
+}
+
+.cardRecipe.done .Imagem{
+  max-height: 50vh;
+  max-width: 70vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.cardRecipe.done button {
+  display: flex;
+  flex-direction: column;
+  height: 39.6vh;
+  align-self: baseline;
+  border-right: none;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #fcb069;
+  position: relative;
+  bottom: 0;
+  width: 12vw;
+}
+
+.cardRecipe.done .horizontalName {
+  position: relative;
+  bottom: 9vh;
+  background-color: #fcb069;
+  border-bottom-right-radius: 10px;
+  line-height: 7vh;
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+}
+
+.cardRecipe.done  a {
+  position: relative;
+  top: 4.3vh;
+}
+
+.topText {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.doneTag {
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.doneDate {
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
