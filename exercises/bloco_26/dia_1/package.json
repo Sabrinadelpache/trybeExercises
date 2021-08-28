@@ -1,0 +1,15 @@
+{
+  "name": "bloco_26",
+  "version": "1.0.0",
+  "description": "First npm script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sabrina",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
