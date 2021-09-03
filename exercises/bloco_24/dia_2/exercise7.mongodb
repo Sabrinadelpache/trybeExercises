@@ -1,0 +1,7 @@
+// Adicione a categoria "90's" aos filmes Batman e Home Alone
+db.movies.updateMany(
+    {"title": {$nin: ["Godzilla"]}},
+    {$addToSet: {
+        "category": "90's"
+    }}    
+)

@@ -1,0 +1,12 @@
+//
+db.movies.find().pretty()
+db.movies.updateOne(
+    {"title": "Batman", "cast.character": "Batman"},
+    {
+        $addToSet: {
+            "cast.$.actor": {
+                $each: ["Christian Bale", "Michael Keaton", "Val Kilmer", "George Clooney"]
+            }
+        }
+    }
+)
