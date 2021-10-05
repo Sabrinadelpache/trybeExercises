@@ -1,0 +1,14 @@
+//Altere budget para 1 no filme Godzilla .
+db.filmes.find({"title":
+        {$eq: "Godzilla"},
+    })
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Godzilla"},
+    },
+    {
+        $set: {
+            "budget": 1
+        }
+    }
+)

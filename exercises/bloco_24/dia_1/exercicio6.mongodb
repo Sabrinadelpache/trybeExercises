@@ -1,0 +1,12 @@
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Batman"}
+    },
+    {
+        $mul: {
+            "imdbRating": 4
+        }
+    }
+)
+db.filmes.find({"title": {$eq: "Batman"}})
+

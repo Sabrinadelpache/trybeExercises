@@ -1,0 +1,18 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Application to develop initail exercises from the course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exercise1/imc.js",
+    "velocidade": "node exercise2/vm.js",
+    "sorteio": "node exercise3/sort.js",
+    "index": "node exercise4/index.js"
+  },
+  "author": "Sabrina Alves Delpache",
+  "license": "ISC",
+  "devDependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

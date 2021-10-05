@@ -1,0 +1,9 @@
+db.filmes.updateMany(
+    {},
+    {
+        $set: {
+            "sequels": 0
+        }
+    }
+)
+db.filmes.find()
