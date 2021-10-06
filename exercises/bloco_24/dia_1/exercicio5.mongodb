@@ -1,0 +1,13 @@
+// Aumente em 5 o budget do filme Home Alone .
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Home Alone"}
+    },
+    {
+        $inc: {
+            "budget": 5
+        }
+    }
+)
+
+db.filmes.find({"title": {$eq: "Home Alone"}})

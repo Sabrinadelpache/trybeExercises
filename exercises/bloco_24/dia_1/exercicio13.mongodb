@@ -1,0 +1,10 @@
+db.filmes.updateMany(
+    {
+        "title": {$in: ["Batman", "Home Alone"]}
+    },
+    {
+        $min: {
+            "imdbRating": 17,
+        }
+    }
+)
