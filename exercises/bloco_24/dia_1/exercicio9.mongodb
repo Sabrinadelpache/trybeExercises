@@ -1,0 +1,16 @@
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Godzilla"},
+    },
+    {
+        $max: {
+            "imdbRating": 8.6
+        },
+        $set: {
+            "category.1": "thriller"
+        }
+    }
+)
+db.filmes.find({"title":
+        {$eq: "Godzilla"},
+    })

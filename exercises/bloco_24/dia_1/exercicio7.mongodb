@@ -1,0 +1,10 @@
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Batman"}
+    },
+    {
+        $rename: {
+            "budget": "estimatedBudget"
+        }
+    }
+)
