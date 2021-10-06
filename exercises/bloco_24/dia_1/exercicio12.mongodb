@@ -1,0 +1,10 @@
+db.filmes.updateMany(
+    {},
+    {
+        $unset: {
+            "budget": "",
+            "estimatedBudget": ""
+        }
+    }
+)
+db.filmes.find({"budget": {$exists: true}})

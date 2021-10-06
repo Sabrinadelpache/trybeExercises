@@ -1,0 +1,2 @@
+//Conte quantos livros existem com o status = "PUBLISH" .
+db.documents.find({"status": "PUBLISH"}).count()

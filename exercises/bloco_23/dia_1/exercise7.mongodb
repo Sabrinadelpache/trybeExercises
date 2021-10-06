@@ -1,0 +1,2 @@
+//Retorne a quantidade de documentos da coleção books 
+db.documents.count()

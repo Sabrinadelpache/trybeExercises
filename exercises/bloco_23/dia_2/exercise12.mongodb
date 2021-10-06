@@ -1,0 +1,9 @@
+//Selecione todos os super-heróis que não sejam humanos nem sejam maiores do que 1.80m .
+db.superheroes.find(
+        {$nor:
+            [
+                {"race": "human"},
+                {"aspects.height": { $lt: 180}}
+            ]
+        }
+    ).count()

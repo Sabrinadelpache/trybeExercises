@@ -1,0 +1,16 @@
+{
+  "name": "dia_2",
+  "version": "1.0.0",
+  "description": "Dia 3 - Teste com NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha *"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+//Aumente em 2 o imdbRating do filme Batman .
+db.filmes.updateOne(
+    {"title":
+        {$eq: "Batman"}
+    },
+    {
+        $inc: {
+            "imdbRating": 2
+        }
+    }
+)
+

@@ -1,5 +1,4 @@
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sabrinadelpache)](https://github.com/anuraghazra/github-readme-stats)
 # Trybe
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Sabrina Alves Delpache](https://www.linkedin.com/in/sabrinadelpache/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
@@ -85,92 +84,92 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 10-1: _Primeiros passos no Jest_
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]
+- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]
+- [x] 11-1: _'Hello, world!' no React!_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Projeto - Movie Cards Library]
 
 ##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 12-1: _Components com estado e eventos_
-- [ ] 12-2: _Formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]
+- [x] 12-1: _Components com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto - Movie Cards Library Stateful]
 
 ##### Bloco 13: Ciclo de Vida de Componentes e React Router
 
-- [ ] 13-1: _Ciclo de vida de componentes em React_
-- [ ] 13-2: _React Router_
-- [ ] 13-3: _[Projeto - Movie Cards Library CRUD]
+- [x] 13-1: _Ciclo de vida de componentes em React_
+- [x] 13-2: _React Router_
+- [x] 13-3: _[Projeto - Movie Cards Library CRUD]
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]
+- [x] 14-1: _Metodologias Ágeis_
+- [x] 14-2: _[Projeto - Frontend Online Store]
 
 ##### Bloco 15: Testes automatizados com React Testing Library
 
-- [ ] 15-1: _Testando React com a React Testing Library - Primeiros passos_
-- [ ] 15-2: _Testando React com a React Testing Library - Mocks e inputs_
-- [ ] 15-3: _Testando React com a React Testing Library - Testando React Router_
-- [ ] 15-4: _[Projeto - Testes em React]
+- [x] 15-1: _Testando React com a React Testing Library - Primeiros passos_
+- [x] 15-2: _Testando React com a React Testing Library - Mocks e inputs_
+- [x] 15-3: _Testando React com a React Testing Library - Testando React Router_
+- [x] 15-4: _[Projeto - Testes em React]
 
 ##### Bloco 16: Introdução ao Redux
 
-- [ ] 16-1: _Introdução ao Redux - O estado global a aplicação_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Actions Assícronas_
-- [ ] 16-5: _Testes síncronos com React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet]
+- [x] 16-1: _Introdução ao Redux - O estado global a aplicação_
+- [x] 16-2: _React com Redux - Parte 1_
+- [x] 16-3: _React com Redux - Prática_
+- [x] 16-4: _React com Redux - Actions Assícronas_
+- [x] 16-5: _Testes síncronos com React-Redux_
+- [x] 16-6: _[Projeto - Trybe Wallet]
 
 ##### Bloco 17: Projeto React
 
-- [ ] 17-1: _[Projeto - Jogo de Trivia]
+- [x] 17-1: _[Projeto - Jogo de Trivia]
 
 ##### Bloco 18: React Hooks & Context API
 
-- [ ] 18-1: _Context API do React_
-- [ ] 18-2: _React Hooks - useState e useContext_
-- [ ] 18-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]
+- [x] 18-1: _Context API do React_
+- [x] 18-2: _React Hooks - useState e useContext_
+- [x] 18-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 18-4: _[Projeto - StarWars Datatable com Context API e Hooks]
 
 ##### Bloco 19: Projeto Final de Front-end
 
-- [ ] 19-1: _[Projeto - App de Receitas]
+- [x] 19-1: _[Projeto - App de Receitas]
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 20: Introdução - Introdução à SQL
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]
 
 ##### Bloco 21: Funções SQL, Joins e Subqueries
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
-- [ ] 21-3: _Stored Routines & Stored Functions_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs e UNIONs e Subqueries_
+- [x] 21-3: _Stored Routines & Stored Functions_
+- [x] 21-4: _[Projeto - Vocabulary Booster]
 
 ##### Bloco 22: Normalização e Modelagem de Banco de Dados
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _Normalização, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
+- [x] 22-1: _Transformando ideias em um modelo de banco de dados_
+- [x] 22-2: _Normalização, Formas Normais e Dumps_
+- [x] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]
 
 ##### Bloco 23: Introdução ao MongoDB
 
-- [ ] 23-1: _MongoDB - Introdução_
-- [ ] 23-2: _Filter Operators_
+- [x] 23-1: _MongoDB - Introdução_
+- [x] 23-2: _Filter Operators_
 - [ ] 23-3: _[Projeto - Data Flights]
 
 ##### Bloco 24: Updates Simples e Complexos

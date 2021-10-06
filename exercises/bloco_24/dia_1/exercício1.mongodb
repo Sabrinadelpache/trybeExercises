@@ -1,0 +1,5 @@
+//Altere o imdbRating para 7.7 no filme Batman .
+db.filmes.updateOne({"title": {$eq: "Batman"}},
+{$set: {
+    "imdbRating": 7.7
+}})

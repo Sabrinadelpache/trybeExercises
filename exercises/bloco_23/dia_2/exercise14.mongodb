@@ -1,0 +1,14 @@
+//Selecione todos os super-heróis que pesem entre 80kg e 100kg , sejam Humanos ou Mutantes e não s
+//ejam publicados pela DC Comics
+db.superheroes.find(
+    {
+        $and: [
+            {$and: [
+                {"aspects.weight": { $gte: 80}},
+                {"aspects.weight": { $lte: 100}}
+            ]},
+            {"race": {$in: ["Human", "Mutant"]}},
+            {"publisher": {$ne: "DC Comics"}}
+        ]
+    }
+).count()
