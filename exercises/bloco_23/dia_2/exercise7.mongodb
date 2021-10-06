@@ -1,0 +1,2 @@
+//Selecione todos os super-heróis que têm olhos verdes 73.
+db.superheroes.find({"aspects.eyeColor": { $in: ["green"]}}).pretty()

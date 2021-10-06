@@ -1,0 +1,2 @@
+db.recipes.find()
+db.recipes.updateOne( { title: "Panqueca Simples" }, { $set: { "ingredients.1.unit": "xícara" } } );
