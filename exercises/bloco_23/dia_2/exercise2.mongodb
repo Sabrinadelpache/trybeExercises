@@ -1,0 +1,3 @@
+//Selecione todos os super-heróis com menos de 1.80m de altura - 421;
+
+db.superheroes.find({"aspects.height": {$lt: 180}})
