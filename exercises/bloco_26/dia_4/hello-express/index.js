@@ -1,13 +1,17 @@
 const express = require('express');
-
-const app = express(); // 1
-
-app.get('/hello', handleHelloWorldRequest); // 2
+const app = express();
+const routerFood = require('./Router/foodRouter');
+const routerDrinks = require('./Router/drinksRouter');
+app.use(express.json())
 
 app.listen(3000, () => {
-  console.log('Aplicação ouvindo na porta 3000');
-}); // 3
+  console.log('Listening on port 3000.')
+});
 
-function handleHelloWorldRequest(req, res) {
-  res.status(200).send('Hello World!'); // 4
-}
+app.use('/drinks', routerDrinks);
+
+app.use('/recipes', routerFood);
+
+app.all('*', (req, res) => {
+  res.status(404).json({message: "A rota não foi encontrada"})
+});
